@@ -1,0 +1,188 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/entity/> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+ex:GP rdf:type cidoc:E22_Human-Made_Object .
+ex:GP rdfs:label "Guernica (painting)" .
+ex:GI rdf:type cidoc:E36_Visual_Item .
+ex:GI rdfs:label "Digital image of the Guernica (painting)" . 
+ex:GPP rdf:type cidoc:E12_Production .
+ex:PP rdf:type cidoc:E21_Person .
+ex:PP rdfs:label "Pablo Picasso" .
+ex:MP rdf:type cidoc:E21_Person .
+ex:MP rdfs:label "María Picasso y López" .
+ex:JB rdf:type cidoc:E21_Person .
+ex:JB rdfs:label "José Ruiz y Blasco" .
+ex:LP rdf:type cidoc:E21_Person .
+ex:LP rdfs:label "Lola Picasso" .
+ex:BP rdf:type cidoc:E67_Birth .
+ex:DP rdf:type cidoc:E69_Death .
+ex:BLP rdf:type cidoc:E67_Birth .
+ex:SG rdf:type cidoc:E74_Group .
+ex:SG rdfs:label "Spanish" .
+ex:AF rdf:type cidoc:E74_Group .
+ex:AF rdfs:label "Anti-Franco" .
+ex:FCP rdf:type cidoc:E74_Group .
+ex:FCP rdfs:label "French Communist Party" .
+ex:JFCP rdf:type cidoc:E85_Joining .
+ex:M1 rdf:type cidoc:E74_Group .
+ex:M1 rdfs:label "Museum of Modern Art (MoMA)" .
+ex:M2 rdf:type cidoc:E74_Group .
+ex:M2 rdfs:label "Prado Museum" .
+ex:M3 rdf:type cidoc:E74_Group .
+ex:M3 rdfs:label "Queen Sofía National Museum Art Centre" .
+ex:SG rdf:type cidoc:E74_Group .
+ex:SG rdfs:label "Spanish government" .
+ex:TC rdf:type cidoc:E10_Transfer_of_Custody .
+ex:SCW rdf:type cidoc:E7_Activity .
+ex:SCW rdfs:label "Spanish Civil War" .
+ex:BG rdf:type cidoc:E7_Activity .
+ex:BG rdfs:label "The bombing of Guernica" .
+ex:NG rdf:type cidoc:E74_Group .
+ex:NG rdfs:label "Nazi" .
+ex:ST rdf:type cidoc:E4_Period .
+ex:ST rdfs:label "Spanish transition to democracy" .
+ex:SE rdf:type cidoc:E7_Activity .
+ex:SE rdfs:label "Spanish general election" .
+ex:FGS rdf:type cidoc:E66_Formation .
+ex:P1 rdf:type cidoc:E53_Place .
+ex:P1 rdfs:label "France" .
+ex:P2 rdf:type cidoc:E53_Place .
+ex:P2 rdfs:label "Spain" .
+ex:P3 rdf:type cidoc:E53_Place .
+ex:P3 rdfs:label "Basque Country" .
+ex:P4 rdf:type cidoc:E53_Place .
+ex:P4 rdfs:label "New York" .
+ex:TS1 rdf:type cidoc:E52_Time-Span .
+ex:TS1 rdfs:label "1881" .
+ex:TS2 rdf:type cidoc:E52_Time-Span .
+ex:TS2 rdfs:label "1937" .
+ex:TS3 rdf:type cidoc:E52_Time-Span .
+ex:TS3 rdfs:label "1944" .
+ex:TS4 rdf:type cidoc:E52_Time-Span .
+ex:TS4 rdfs:label "1973" .
+ex:TS5 rdf:type cidoc:E52_Time-Span .
+ex:TS5 rdfs:label "1936-1939" .
+ex:TS6 rdf:type cidoc:E52_Time-Span .
+ex:TS6 rdfs:label "1975–1982" .
+ex:TS7 rdf:type cidoc:E52_Time-Span .
+ex:TS7 rdfs:label "1981" .
+ex:TS8 rdf:type cidoc:E52_Time-Span .
+ex:TS8 rdfs:label "1982" .
+ex:TG rdf:type cidoc:E35_Title .
+ex:TG rdfs:label "Guernica" .
+ex:T1 rdf:type cidoc:E55_Type .
+ex:T1 rdfs:label "painting" .
+ex:T2 rdf:type cidoc:E55_Type .
+ex:T2 rdfs:label "Oil-on-canvas" .
+ex:T3 rdf:type cidoc:E55_Type .
+ex:T3 rdfs:label "museum" .
+ex:T4 rdf:type cidoc:E55_Type .
+ex:T4 rdfs:label "color" .
+ex:T5 rdf:type cidoc:E55_Type .
+ex:T5 rdfs:label "width" .
+ex:T6 rdf:type cidoc:E55_Type .
+ex:T6 rdfs:label "height" .
+ex:T7 rdf:type cidoc:E55_Type .
+ex:T7 rdfs:label "Socialist" .
+ex:CG rdf:type cidoc:E3_Condition_State .
+ex:CG  rdfs:label "Fair to good, stable but fragile" .
+ex:FB rdf:type cidoc:E25_Human-Made_Feature .
+ex:FB rdfs:label "black" .
+ex:FW rdf:type cidoc:E25_Human-Made_Feature .
+ex:FW rdfs:label "white" .
+ex:FG rdf:type cidoc:E25_Human-Made_Feature .
+ex:FG rdfs:label "grey" .
+ex:C rdf:type cidoc:E4_Period .
+ex:C rdfs:label "Cubism" .
+ex:H rdf:type cidoc:E20_Biological_Object .
+ex:H rdfs:label "Horse" .
+ex:P5 rdf:type cidoc:E53_Place .
+ex:P5 rdfs:label "Paris" .
+ex:DW rdf:type cidoc:E54_Dimension .
+ex:DW rdfs:label "Width of the Guernica (painting)" .
+ex:DH rdf:type cidoc:E54_Dimension .
+ex:DH rdfs:label "Height of the Guernica (painting)" .
+ex:UM rdf:type cidoc:E58_Measurement_Unit .
+ex:UM rdfs:label "meters" .
+ex:NUM1 rdf:type cidoc:E60_Number .
+ex:NUM1 rdfs:label "7.76" .
+ex:NUM2 rdf:type cidoc:E60_Number .
+ex:NUM2 rdfs:label "3.49" .
+ex:P6 rdf:type cidoc:E53_Place .
+ex:P6 rdfs:label "Malaga" .
+ex:P7 rdf:type cidoc:E53_Place .
+ex:P7 rdfs:label "Mougins" .
+
+
+ex:GP cidoc:P2_has_type ex:T1 .
+ex:GP cidoc:P102_has_title ex:TG .
+ex:GP cidoc:P62_depicts ex:H .
+ex:GP cidoc:P56_bears_feature ex:FB .
+ex:GP cidoc:P56_bears_feature ex:FW .
+ex:GP cidoc:P56_bears_feature ex:FG .
+ex:GP cidoc:P43_has_dimension ex:DW .
+ex:GP cidoc:P43_has_dimension ex:DH .
+ex:GP cidoc:P44_has_condition ex:CG .
+ex:GP cidoc:P50_has_current_keeper ex:M3 .
+ex:GP cidoc:P49_has_former_or_current_keeper ex:M2 .
+ex:GP cidoc:P49_has_former_or_current_keeper ex:M1 .
+ex:GPP cidoc:P108_has_produced ex:GP .    
+ex:GPP cidoc:P7_took_place_at ex:P5 .
+ex:GPP cidoc:P14_carried_out_by ex:PP .
+ex:GPP cidoc:P4_has_time-span ex:TS2 .
+ex:GPP cidoc:P32_used_general_technique ex:T2 .
+ex:GPP cidoc:P17_was_motivated_by ex:BG .  
+ex:GPP cidoc:P15_was_influenced_by ex:C .
+ex:BG cidoc:P4_has_time-span ex:TS2 .
+ex:BG cidoc:P7_took_place_at ex:P3 .
+ex:BG cidoc:P14_carried_out_by ex:NG .
+ex:SCW cidoc:P4_has_time-span ex:TS5 .
+ex:SCW cidoc:P9_consists_of ex:BG .
+ex:DW cidoc:P2_has_type ex:T5 .
+ex:DW cidoc:P90_has_value ex:NUM1 .
+ex:DW cidoc:P91_has_unit ex:UM .
+ex:DH cidoc:P2_has_type ex:T6 .
+ex:DH cidoc:P90_has_value ex:NUM2 .
+ex:DH cidoc:P91_has_unit ex:UM .
+ex:GI cidoc:P138_represents ex:GP .
+ex:FB cidoc:P2_has_type ex:T4 .
+ex:FW cidoc:P2_has_type ex:T4 .
+ex:FG cidoc:P2_has_type ex:T4 .
+ex:BP cidoc:P98_brought_into_life ex:PP . 
+ex:BP cidoc:P96_by_mother ex:MP .
+ex:BP cidoc:P97_from_father ex:JB .
+ex:BP cidoc:P4_has_time-span ex:TS1 .
+ex:BP cidoc:P7_took_place_at ex:P6 .
+ex:P6 cidoc:P89_falls_within ex:P2 .
+ex:DP cidoc:P100_was_death_of ex:PP .
+ex:DP cidoc:P4_has_time-span ex:TS4 .
+ex:DP cidoc:P7_took_place_at ex:P7 .
+ex:P7 cidoc:P89_falls_within ex:P1 .
+ex:SG cidoc:P107_has_current_or_former_member ex:PP . 
+ex:AF cidoc:P107_has_current_or_former_member ex:PP . 
+ex:BLP cidoc:P98_brought_into_life ex:LP .
+ex:BLP cidoc:P96_by_mother ex:MP .
+ex:BLP cidoc:P97_from_father ex:JB .
+ex:BP cidoc:P183_ends_before_the_start_of ex:BLP .
+ex:JFCP cidoc:P143_joined ex:PP .
+ex:JFCP cidoc:P144_joined_with ex:FCP .
+ex:JFCP cidoc:P4_has_time-span ex:TS3 .
+ex:TC cidoc:P30_transferred_custody_of ex:GP .
+ex:TC cidoc:P28_custody_surrendered_by ex:M1 .
+ex:TC cidoc:P29_custody_received_by ex:M2 .
+ex:TC cidoc:P4_has_time-span ex:TS7 .
+ex:TC cidoc:P17_was_motivated_by ex:ST .  
+ex:M1 cidoc:P2_has_type ex:T3 .
+ex:M1 cidoc:P74_has_current_or_former_residence ex:P4 .
+ex:M2 cidoc:P2_has_type ex:T3 .
+ex:M2 cidoc:P74_has_current_or_former_residence ex:P2 .
+ex:M3 cidoc:P2_has_type ex:T3 .
+ex:M3 cidoc:P74_has_current_or_former_residence ex:P2 .
+ex:ST cidoc:P4_has_time-span ex:TS6 .
+ex:ST cidoc:P9_consists_of ex:SE .
+ex:SE cidoc:P4_has_time-span ex:TS8 .
+ex:FGS cidoc:P17_was_motivated_by ex:SE .
+ex:FGS cidoc:P95_has_formed ex:SG .
+ex:SG cidoc:P2_has_type ex:T7 .
